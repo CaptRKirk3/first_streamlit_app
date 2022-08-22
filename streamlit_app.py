@@ -23,3 +23,4 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 streamlit run my_app.py --server.enableCORS=false
+streamlit run my_app.py --server.enableWebsocketCompression=false
